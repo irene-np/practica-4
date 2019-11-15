@@ -35,8 +35,8 @@ chown www-data:www-data * -R
 
 # configurar el archivo config.php (sed -i cambia s/localhost por 54.85.90.14 que es nuestra maquina mysql)
 cd /var/www/html/iaw-practica-lamp/src/
-sed -i "s/localhost/54.85.90.14/" config.php
+sed -i "s/localhost/35.172.114.64/" config.php
 cat config.php
 # Para ver que conecta con mysql
-telnet 54.85.90.14 3306
+telnet 35.172.114.64 3306
 
